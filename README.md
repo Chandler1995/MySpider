@@ -1,2 +1,2 @@
-# MySpider
-Here are my Spiders.
+# 豆瓣图书爬虫
+一个很小的爬虫练习，爬所有标签为“小说”的豆瓣图书，并存储为json形式的txt格式文件。
