@@ -50,7 +50,7 @@ def download_write(content):
 def main(start):
     url = 'https://book.douban.com/tag/小说?start=' + str(start) + '&type=T'
     html = get_one(url)
-    page_num = start/20 + 1
+    page_num = start / 20 + 1
     for one_book_dict in parse_one(html, page_num):
         print(one_book_dict)
         download_write(one_book_dict)
